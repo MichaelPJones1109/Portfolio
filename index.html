@@ -15,7 +15,17 @@
             <br> </br>
 
         <h1> Michael P. Jones/Brain Food Portfolio</h1>
-        <img height="800" width="700" src="graduation.jpg" alt="Me!!" class="center">
+        <script type="text/javascript">
+            if (screen.width <= 699) {
+                var img = document.createElement("img");
+                img.src = "graduation.jpg";
+                var src = document.getElementById("header");
+                src.appendChild(img);
+            }
+        </script>
+        <div id="header"></div>
+        <img height="700" width="400" src="graduation.jpg" alt="Me!!" class="center">
+
         <h2>Hello, my name is Michael P. Jones lead developer and head of Brain Food, 
             an independent video game development studio.
         </h2>
