@@ -5,3 +5,7 @@ function githubLink(){
 function itchLink(){
     window.open("https://michael-p-jones.itch.io/");
 }
+
+function portfolio(){
+    window.open("https://github.com/MichaelPJones1109/Portfolio")
+}

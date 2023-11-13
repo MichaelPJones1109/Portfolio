@@ -1,35 +1,62 @@
 body{
+    /*background*/
     background-color: rgb(10, 22, 10);
 }
 
 .text{
+    /*text color*/
     color: aquamarine;
 }
 
 .text h1{
+    /*font*/
     font-family: "Ranchers", sans-serif;
 }
 
 .text h2{
+    /*font*/
     font-family: "Ranchers", sans-serif;
 }
 
-/* unvisited link */
-a:link {
-    color: green;
+a {
+    /* unvisited link */
+    a:link {
+        color: green;
+    }
+    
+    /* visited link */
+    a:visited {
+        color: green;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: green;
+    }
+
+    /* selected link */
+    a:active {
+        color: green;
+    }
 }
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px green;
+  }
   
-/* visited link */
-a:visited {
-color: green;
-}
-
-/* mouse over link */
-a:hover {
-color: green;
-}
-
-/* selected link */
-a:active {
-color: green;
-}
+  .button:hover {background-color: green}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #3e8e41;
+    transform: translateY(4px);
+  }
