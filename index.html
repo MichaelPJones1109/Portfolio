@@ -9,28 +9,25 @@
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <div style="text-align: center;">
+    <main style="text-align: center;">        
         <div class="text">
 
-            <br> </br>
+        <br> </br>
 
-        <h1> Michael P. Jones -Brain Food- Portfolio</h1>
+        <h1> Who Am I?</h1>
+        
+        <br> </br>
+        
+        <img src="graduation2.jpg" alt="Me!!" class="img-me">
+        
+        <br> </br>
 
-        <script type="text/javascript">
-            if (screen.width <= 699) {
-                var img = document.createElement("img");
-                img.src = "graduation.jpg";
-                var src = document.getElementById("header");
-                src.appendChild(img);
-            }
-        </script>
-
-        <div id="header"></div>
-        <img height="800" width="600" src="graduation.jpg" alt="Me!!" class="center">
-
-        <h2>Hello, my name is Michael P. Jones lead developer and head of Brain Food, 
-            an independent video game development studio.
+        <h2>My name is Michael P. Jones <!-- lead developer and head of Brain Food, 
+            an independent video game development studio.-->
         </h2>
+
+        <br> </br>
+
         <h2>
             My goals are to make fun and adventurous games as well as working on projects 
             that can positively benefit people's lives.
@@ -41,17 +38,21 @@
         <h2>
             What Programming/Markup Languages Do I Know/Am Learning?:
         </h2>
+        <br> </br>
         <div>
-            <h3>
+            <h2>
                 1. C++
-            </h3>
+            </h2>
+            <br> </br>
             <p>
                 I started learning C++ in the tail end of 2023 with the goal of making my own video
                 game engine.
             </p>
-            <h3>
+            <br> </br>
+            <h2>
                 2. HTML, CSS, and JavaScript
-            </h3>
+            </h2>
+            <br> </br>
             <p>
                 I started learning HTML, CSS, and JavaScript combined near the end of the year, 2023,
                 with the goal of making my own website. The one you see right here!
@@ -60,8 +61,13 @@
             <br> </br>
 
         <h2>What are some of my projects?:</h2>
-        <div>   
-            <button onclick="portfolio()" class="button">My Portfolio</button>
+        <div>
+            <h2> C++ Projects </h2>
+            <br> </br>
+            <!-- Put links to your projects here as well as the github repo-->
+            <h2> HTML Projects </h2>
+            <br> </br>
+            <input type="image" src="snapshot.PNG" class="button-project" onclick="portfolio()">
             <!-- Put links to your projects here as well as the github repo-->
         </div>
 
@@ -71,9 +77,12 @@
             Links to my Itch.io and my Github:
         </h2>
 
-        <img id="itch" height="500" width="1500" src="Itch.io_logo.png" alt="Itch.io" class="center" style="margin: 100px 100px 100px 100px;" onclick="itchLink()">
-        <img id="github" height="500" width="500" src="GitHub-logo(1).png" alt="Github" class="center" style="margin: 100px 100px 100px 100px;"  onclick="githubLink()">
-        
+        <img src="monochrome_large.png" alt="Itch.io" class="img-links" onclick="itchLink()">
+        <img src="GitHub-logo(1).png" alt="Github" class="img-links" onclick="githubLink()">
+    </main>
+        <footer>
+
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
